@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++0x  -g -ftest-coverage -fprofile-arcs   CMakeFiles/arm.dir/arm.cpp.o  -o arm -rdynamic 

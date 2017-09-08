@@ -1,0 +1,11 @@
+#!/usr/bin/bash
+
+echo "hi"
+
+
+
+cat <<EOF | ./stockfish-8-linux/Linux/stockfish_8_x64
+
+go
+go
+EOF

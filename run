@@ -1,0 +1,23 @@
+#!/usr/bin/bash
+
+
+#RUN OMAR AND PUT ANSWER IN FILE OMAR
+#echo "0" >| ./bahi2/mode.txt;
+#./bahi2/joker;
+
+echo "1" >| ./bahi2/mode.txt;
+./bahi2/joker;
+cat ./bahi2/player.txt >| ./arm/move.txt ;
+
+./game;
+#cat ./arm/move.txt >| ./bahi2/read.txt;
+
+
+
+echo "2" >| ./bahi2/mode.txt;
+./bahi2/joker;
+cat ./bahi2/stockfish.txt >| ./arm/move.txt;
+./arm/arm;
+
+
+

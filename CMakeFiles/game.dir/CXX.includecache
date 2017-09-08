@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mdawod/chess/game.cpp
+stdio.h
+-
+stdlib.h
+-
+string
+-
+iostream
+-
+fstream
+-
+limits
+-
+

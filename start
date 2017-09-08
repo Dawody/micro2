@@ -1,0 +1,12 @@
+#!/usr/bin/bash
+
+
+
+echo "0" >| ./bahi2/mode.txt;
+./bahi2/joker;
+
+echo "position startpos moves
+d
+go
+go
+quit" >| input

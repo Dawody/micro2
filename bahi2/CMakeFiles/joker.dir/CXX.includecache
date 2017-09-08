@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mdawod/chess/bahi2/Source.cpp
+bits/stdc++.h
+-
+iostream
+-
+vector
+-
+map
+-
+fstream
+-
+string
+-
+sstream
+-
+

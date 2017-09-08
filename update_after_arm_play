@@ -1,0 +1,7 @@
+#!/usr/bin/bash
+
+
+
+
+echo "1" >| ./bahi2/mode.txt;
+./bahi2/joker;
